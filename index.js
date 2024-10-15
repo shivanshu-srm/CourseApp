@@ -11,7 +11,7 @@ app.use('/users', userRoutes);
 app.use('/admin', courseRoutes);
 
 // MongoDB connection
-mongoose.connect('mongodb+srv://shivanshudixit121:Gmail12345%40@cluster0.djoj2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => {
